@@ -17,3 +17,7 @@ When you want to experiment with a new feature, but keep a stable version availa
 How do the diagrams help you visualize the branch structure?
 
 It's easy to see where commits branch, and how the git log will display commits. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+All past commits for each branch are merged together, and sorted by time stamp. The digrams show two branches joining again, as it's supposed to. 
