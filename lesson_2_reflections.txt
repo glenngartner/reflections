@@ -21,3 +21,7 @@ It's easy to see where commits branch, and how the git log will display commits.
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 All past commits for each branch are merged together, and sorted by time stamp. The digrams show two branches joining again, as it's supposed to. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merges save time, and are low risk (code should still run/compile). Manual merging takes more time, but is necessary when conflicts aren't clear for Git. Humans, particularly those writing the code, should confirm the final merge, to ensure the program still runs. 
