@@ -1,3 +1,7 @@
 When would you want to create a remote repository rather than keeping all your work local? 
 
 When I want others to view the work I've created, share so others can contribute, or back up my data, so it's safe should a local disk error occur. 
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+In case others commit to my local repository, but I haven't investigated their code yet, or in case I need to work locally on new features, but not roll them into the public release for others to view. Not yet. 
