@@ -4,4 +4,8 @@ When I want others to view the work I've created, share so others can contribute
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
-In case others commit to my local repository, but I haven't investigated their code yet, or in case I need to work locally on new features, but not roll them into the public release for others to view. Not yet. 
+In case others commit to my local repository, but I haven't investigated their code yet, or in case I need to work locally on new features, but not roll them into the public release for others to view. Not yet.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Git Hug requires the use of "forks" when you want to branch someone else's respository on GitHub, and save your own changes as your own fork. Clones are created from copying repositories online (on GitHub), and saving a local copy to your machine, for making local changes / working on files. Branches are made to local repos when you want to preserve the status of a functional branch, but add experimental features that you don't want corrupting the original, say, master branch. 
