@@ -17,3 +17,7 @@ I can compare my recent changes to that last known copy, and git status will tel
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder? 
 
 Other tools are available, like Dropbox, for sharing files, but they lack sophisticated and disciplined version control, so merging changes would be tedious, and manually intensive. Still, it's possible to collaborate like this. 
+
+When would you want to make canges in a separate branch rather than directly in master? What benefits does each approach have? 
+
+If many people were collaborating on code, it makes sense to have each working outside of the master branch, so the master branch merges can be inspected and verified by the person responsible for master's stability. When branch changes are made, they're merged into master by an apporoved person, when the pull request is received, and then that branch can be deleted (if it's not used anymore). 
