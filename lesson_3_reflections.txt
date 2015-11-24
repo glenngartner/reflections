@@ -13,3 +13,7 @@ Git Hug requires the use of "forks" when you want to branch someone else's respo
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 I can compare my recent changes to that last known copy, and git status will tell me the same. Perhaps it also helps when the latest remote copy is pulled, and git can determine what has changed since. 
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder? 
+
+Other tools are available, like Dropbox, for sharing files, but they lack sophisticated and disciplined version control, so merging changes would be tedious, and manually intensive. Still, it's possible to collaborate like this. 
